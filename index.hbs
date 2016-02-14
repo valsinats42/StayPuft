@@ -24,7 +24,8 @@
         </section>
     </header>
     <section class="post-content">
-        {{content}}
+        {{excerpt}}
+	<a href="{{url}}">Read More...</a>
     </section>
     <footer class="post-indexfooter">
         <i class="fa fa-comment-o"></i> <a href="{{url}}#disqus_thread">Comments</a>
@@ -48,3 +49,4 @@
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
 </script>
+
